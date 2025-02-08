@@ -15,3 +15,7 @@ biases = [2, 3, 4]
 neurons_output = np.dot(weights, inputs) + biases
 
 print(neurons_output)
+
+neurons_output = np.dot(inputs,weights) + biases
+
+print(neurons_output)
